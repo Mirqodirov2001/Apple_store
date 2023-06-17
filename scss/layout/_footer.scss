@@ -1,0 +1,90 @@
+footer {
+  width: 100%;
+  height: auto;
+  padding: 30px 0 40px;
+
+  .f_all {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    .ftr_card1 {
+      width: 273px;
+
+      .f_text1 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #878787;
+        margin: 27px 0 24px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+
+      }
+    }
+  }
+
+  .b_s {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #B7B7B7;
+  }
+
+  .content {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 16px;
+
+
+    a {
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000;
+    }
+
+  }
+
+  .number {
+    width: 330px;
+    margin-left: 20px;
+    margin-bottom: 4px;
+    
+
+    h1 {
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 48px;
+      color: #100E0E;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #706E6E;
+    }
+
+    .call {
+      display: flex;
+      margin: 11px 0 40px 0;
+      justify-content: space-between;
+
+      h3 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #0071E4;
+
+      }
+
+      }
+    }
+  }

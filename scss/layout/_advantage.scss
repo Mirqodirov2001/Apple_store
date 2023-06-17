@@ -1,0 +1,89 @@
+#advantage {
+    padding: 40px 0;
+
+
+    h1 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+        color: #100E0E;
+    }
+
+    .a_wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+
+        .a_card {
+            display: flex;
+            flex-direction: column;
+            width: 228px;
+            height: 500px;
+            background: linear-gradient(180.04deg, #FE94A6 0.04%, #F2F2F2 65.84%);
+            border-radius: 16px;
+            align-items: center;
+
+            h2 {
+                font-style: normal;
+                text-align: center;
+                font-size: 20px;
+                line-height: 24px;
+                margin-top: 16px;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 19px;
+                text-align: center;
+                color: #585656;
+                margin-top: 8px;
+            }
+
+            button {
+                margin-top: 120px;
+                width: 212px;
+                height: 56px;
+                border: 1px solid #0071E4;
+                border-radius: 8px;
+                line-height: 21px;
+                color: #0071E4;
+                cursor: pointer;
+                
+                &:hover {
+                    background: #0071E4;
+                    color: #FFFFFF;
+                }
+            }
+
+        }
+
+        .a_card:nth-child(2) {
+            background: linear-gradient(180.04deg, #E685FF 0.04%, #F2F2F2 65.84%);
+        }
+
+        .a_card:nth-child(3) {
+            background: linear-gradient(180.04deg, #7DE9FF 0.04%, #F2F2F2 65.84%);
+        }
+
+        .a_card:nth-child(4) {
+            background: linear-gradient(180.04deg, #FFE685 0.04%, #F7F7F7 65.84%);
+        }
+
+        .a_card:nth-child(5) {
+            background: linear-gradient(180.04deg, #ADFFC1 0.04%, #F2F2F2 65.84%),
+                #F2F2F2;
+        }
+    }
+
+
+
+}
+@media only screen and (max-width:1260px){
+    .a_wrapper{
+        align-items: center !important;
+        margin-left: 60px !important;
+        gap: 20px !important;
+    }
+}
